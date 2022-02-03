@@ -23,8 +23,14 @@ nxos3:
       - cisco_nxos
     hostname: 192.168.100.4
 
-# veos01:
-#   hostname: 192.168.100.106
-#   groups:
-#     # - arista_eapi
-#     - arista
+# r1:
+#     site: home
+#     groups:
+#       - cisco_ios
+#     hostname: 192.168.100.101
+
+veos01:
+  hostname: 192.168.100.106
+  groups:
+    # - arista_eapi
+    - arista
