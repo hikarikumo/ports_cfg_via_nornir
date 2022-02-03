@@ -1,0 +1,11 @@
+---
+juniper: { platform: junos, port: 830 }
+arista: { platform: eos, port: 22 }
+arista_eapi: { platform: eos, port: 443}
+cisco_ios: { platform: ios, port: 22 }
+cisco_nxos: {
+  platform: nxos, 
+  port: 22,
+  # port: 443,
+  # transport: http
+   }

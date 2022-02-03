@@ -1,0 +1,30 @@
+---
+nxos0:
+    site: home
+    groups:
+      - cisco_nxos
+    hostname: 192.168.100.1
+
+nxos1:
+    site: home
+    groups:
+      - cisco_nxos
+    hostname: 192.168.100.2
+
+nxos2:
+    site: home
+    groups:
+      - cisco_nxos
+    hostname: 192.168.100.3
+
+nxos3:
+    site: home
+    groups:
+      - cisco_nxos
+    hostname: 192.168.100.4
+
+# veos01:
+#   hostname: 192.168.100.106
+#   groups:
+#     # - arista_eapi
+#     - arista
